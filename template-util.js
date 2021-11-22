@@ -1,4 +1,4 @@
-const getState = () => {
+export const getState = () => {
   return [
     {
       name: 'Alabama',
@@ -239,7 +239,7 @@ const getState = () => {
   ]
 }
  
-const getEquityFooterValues = () => {
+export const getEquityFooterValues = () => {
   return [
     {
       title: 'What is a home equity loan?',
@@ -290,7 +290,7 @@ const getEquityFooterValues = () => {
   ]
 }
 
-const getPurchaseFooterValues = () => {
+export const getPurchaseFooterValues = () => {
   return [
     {
       title: 'What is a mortgage loan?',
@@ -352,7 +352,7 @@ const getPurchaseFooterValues = () => {
   ]
 }
 
-const getRefiFooterValues = () => {
+export const getRefiFooterValues = () => {
   return [
     {
       title: 'What is a mortgage refinance?',
